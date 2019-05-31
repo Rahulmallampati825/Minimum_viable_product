@@ -7,17 +7,45 @@ Minimum Viable Product
 <header>
 </head>
 <body>
-Q1
-<input type=checkbox name=question1 >a1 <br>
-<input type=checkbox name=question1 >a2 <br>
-<input type=checkbox name=question1 >a3 <br>
-Q2
-<input type=text name=question2 ><br>
-Q3
-<input type=checkbox name=question1 >a1 <br>
-<input type=checkbox name=question1 >a2 <br>
-<input type=checkbox name=question1 >a3 <br>
+        <form onsubmit="myFunction()">
+1. Which process uses up most of the budget in a project?<br>
+<input type=checkbox name=question1 value=>Integrating<br>
+<input type=checkbox name=question1 value=>Planning <br>
+<input type=checkbox name=question1 value=>Executing <br><br>
+2.Your project team have been assembled, so in which process group will you perform team building?
+<input type=text name=question2 ><br><br>
+3. Which is the knowledge area where requirements are collected?<br>
+<input type=checkbox name=question3 >Communication <br>
+<input type=checkbox name=question3 >Scope <br>
+<input type=checkbox name=question3 >Integration <br><br>
+4. Which process group contains the process Administering Procurements?<br>
+<input type=checkbox name=question4 >Planning <br>
+<input type=checkbox name=question4 >Monitoring and Controlling <br>
+<input type=checkbox name=question4 >Executing<br><br>
+
+
+    <input type="submit">
+  </form>
 
 </body>
+<script>
+ function myFunction(){
+     document.writeln("Answers:     <br>                                  ");
+     
+    
+     document.writeln("1.Executing   <br>                                 ");
+     
+     document.writeln("2.Executing     <br>                              ");
+     
+     document.writeln("3.Scope         <br>                               ");
+     
+     document.writeln("4.Monitoring and Controlling");
+
+
+ }
+
+
+
+</script>
 
 </html>
